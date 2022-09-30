@@ -1,6 +1,9 @@
+// Import's
+import Home from "../components/home";
+
 const App = () => {
   return (
-    <div>Top</div>
+    <Home />
   )
 }
 
