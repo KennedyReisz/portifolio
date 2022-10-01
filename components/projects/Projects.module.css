@@ -19,7 +19,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 30px; 
+  color: #fff;
 }
 
 /* Project 1 */

@@ -50,7 +50,6 @@ const Projects = () => {
             <div className={styles.technologiesProject}>
               <Image src={html} alt="" />
               <Image src={css} alt="" />
-              <Image src={js} alt="" />
             </div>
 
             <button onClick={handleGoToProject2}>Repository</button>
