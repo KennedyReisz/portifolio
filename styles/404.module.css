@@ -5,7 +5,7 @@
   }
 
   50% {
-    opacity: 0.2;
+    opacity: 0.3;
     transition: all ease 1s;
   }
 
@@ -22,13 +22,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all ease 2s;
+  animation: opacidadeTransition 2s infinite;
 }
 
 .notFound>h1:nth-child(2) {
   font-size: 50px;
-}
-
-.notFound>p {
-  transition: all ease 1s;
-  animation: opacidadeTransition 1s infinite;
 }
