@@ -42,8 +42,8 @@ const Skills = () => {
           </div>
           <div className={styles.downArea}>
             <div className={styles.technologies}>
-              <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">Technogies</p>
-              <div data-aos="zoom-out-right" data-aos-duration="3000" className={styles.technologiesImage}>
+              <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">Technogies</p>
+              <div data-aos="zoom-out-right" data-aos-duration="2500" className={styles.technologiesImage}>
                 <Image src={html} alt="" />
                 <Image src={css} alt="" />
                 <Image src={js} alt="" />
@@ -57,8 +57,8 @@ const Skills = () => {
             </div>
 
             <div className={styles.databases}>
-              <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">Databases</p>
-              <div data-aos="zoom-out-right" data-aos-duration="3000" className={styles.databasesImage}>
+              <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">Databases</p>
+              <div data-aos="zoom-out-right" data-aos-duration="2500" className={styles.databasesImage}>
                 <Image src={mysql} alt="" />
                 <Image src={postgres} alt="" />
                 <Image src={mongo} alt="" />
@@ -66,8 +66,8 @@ const Skills = () => {
             </div>
 
             <div className={styles.studying}>
-              <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">Studying</p>
-              <div data-aos="zoom-out-right" data-aos-duration="3000" className={styles.studyingImage}>
+              <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">Studying</p>
+              <div data-aos="zoom-out-right" data-aos-duration="2500" className={styles.studyingImage}>
                 <Image src={vuejs} alt="" />
                 <Image src={graphql} alt="" />
               </div>
