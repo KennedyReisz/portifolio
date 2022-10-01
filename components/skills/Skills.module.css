@@ -48,7 +48,7 @@
   align-items: center;
 }
 
-.skills .skillsArea .topArea > h3 {
+.skills .skillsArea .topArea>h3 {
   font-weight: 600;
   font-size: 20px;
 }
@@ -90,5 +90,21 @@
 }
 
 .skills .skillsArea .downArea .databases .databasesImage img {
+  padding: 5px !important;
+}
+
+/* Studying */
+.skills .skillsArea .downArea .studying {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills .skillsArea .downArea .studying .studyingImage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills .skillsArea .downArea .studying .studyingImage img {
   padding: 5px !important;
 }

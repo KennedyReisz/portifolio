@@ -18,6 +18,15 @@ import sass from "../../assets/languages/sass.svg";
 import mysql from "../../assets/databases/mysql.svg";
 import postgres from "../../assets/databases/postgres.svg";
 import mongo from "../../assets/databases/mongo.svg";
+import vuejs from "../../assets/languages/vue.svg";
+import graphql from "../../assets/languages/graphql.svg";
+import vscode from "../../assets/tools/vscode.svg";
+import vs from "../../assets/tools/vs.svg";
+import neovim from "../../assets/tools/neovim.svg";
+import photoshop from "../../assets/tools/photoshop.svg";
+import xd from "../../assets/tools/xd.svg";
+import figma from "../../assets/tools/figma.svg";
+import git from "../../assets/tools/git.svg";
 
 const Skills = () => {
   return (
@@ -53,6 +62,14 @@ const Skills = () => {
                 <Image src={mysql} alt="" />
                 <Image src={postgres} alt="" />
                 <Image src={mongo} alt="" />
+              </div>
+            </div>
+
+            <div className={styles.studying}>
+              <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">Studying</p>
+              <div data-aos="zoom-out-right" data-aos-duration="3000" className={styles.studyingImage}>
+                <Image src={vuejs} alt="" />
+                <Image src={graphql} alt="" />
               </div>
             </div>
           </div>
