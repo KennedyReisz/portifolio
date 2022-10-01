@@ -22,16 +22,16 @@ const About = () => {
           </h1>
 
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero
+            pariatur consectetur veritatis nihil consequuntur optio quod in
+            labore, et laboriosam accusamus? Doloribus sed illo debitis expedita
+            delectus ex quae?
           </p>
           <p>
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero
+            pariatur consectetur veritatis nihil consequuntur optio quod in
+            labore, et laboriosam accusamus? Doloribus sed illo debitis expedita
+            delectus ex quae?
           </p>
         </div>
       </div>
