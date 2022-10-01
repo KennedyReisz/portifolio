@@ -21,10 +21,6 @@
   color: #8c9983;
 }
 
-.home .mainPhrase:hover {
-  letter-spacing: 10px;
-}
-
 .home .subPhrase {
   font-weight: 550;
   font-size: 32px;

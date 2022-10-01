@@ -14,3 +14,24 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #d9e6d1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #8c9983;
+  border-radius: 60px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #656e5f;
+}

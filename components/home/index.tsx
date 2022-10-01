@@ -1,5 +1,4 @@
 // Import's
-import Header from "../header";
 import Image from "next/image";
 
 // Asset's
@@ -19,18 +18,18 @@ const Home = () => {
 
   return (
     <div className={styles.home}>
-      <div className={styles.profile}>
+      <div data-aos="flip-down" data-aos-duration="2000" className={styles.profile}>
         <Image height={290} width={240} src={profile} alt="" />
       </div>
 
-      <h1 className={styles.mainPhrase}>
+      <h1 data-aos="flip-right" data-aos-duration="3000" className={styles.mainPhrase}>
         I<span>&apos;</span>m Kennedy<span>!</span>
       </h1>
-      <p className={styles.subPhrase}>
+      <p data-aos="flip-left" data-aos-duration="3000" className={styles.subPhrase}>
         Full-Stack Developer<span>.</span>
       </p>
 
-      <div className={styles.socials}>
+      <div data-aos="zoom-in-up" data-aos-duration="3000" className={styles.socials}>
         <div onClick={handleGoToDiscord} className={styles.discord}>
           <Image src={discord} alt="" />
         </div>
