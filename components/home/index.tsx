@@ -18,32 +18,27 @@ const Home = () => {
   }
 
   return (
-    <>
-      <Header />
+    <div className={styles.home}>
+      <div className={styles.profile}>
+        <Image height={290} width={240} src={profile} alt="" />
+      </div>
 
-      {/* Home */}
-      <div className={styles.home}>
-        <div className={styles.profile}>
-          <Image height={290} width={240} src={profile} alt="" />
+      <h1 className={styles.mainPhrase}>
+        I<span>&apos;</span>m Kennedy<span>!</span>
+      </h1>
+      <p className={styles.subPhrase}>
+        Full-Stack Developer<span>.</span>
+      </p>
+
+      <div className={styles.socials}>
+        <div onClick={handleGoToDiscord} className={styles.discord}>
+          <Image src={discord} alt="" />
         </div>
-
-        <h1 className={styles.mainPhrase}>
-          I<span>&apos;</span>m Kennedy<span>!</span>
-        </h1>
-        <p className={styles.subPhrase}>
-          Full-Stack Developer<span>.</span>
-        </p>
-
-        <div className={styles.socials}>
-          <div onClick={handleGoToDiscord} className={styles.discord}>
-            <Image src={discord} alt="" />
-          </div>
-          <div onClick={handleGoToGithub} className={styles.github}>
-            <Image src={github} alt="" />
-          </div>
+        <div onClick={handleGoToGithub} className={styles.github}>
+          <Image src={github} alt="" />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
