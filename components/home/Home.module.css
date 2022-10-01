@@ -1,0 +1,36 @@
+.home {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .mainPhrase {
+  font-size: 90px;
+  font-weight: 900;
+  transition: all ease 1.3s;
+  text-shadow: 0 0 40px #00000050;
+  margin-bottom: 20px;
+  cursor: default;
+}
+
+.home .mainPhrase>span {
+  color: #8c9983;
+}
+
+.home .mainPhrase:hover {
+  letter-spacing: 15px;
+}
+
+.home .subPhrase {
+  font-weight: 550;
+  font-size: 32px;
+  text-shadow: 0 0 20px #00000050;
+  cursor: default;
+}
+
+.home .subPhrase>span {
+  color: #8c9983;
+}
