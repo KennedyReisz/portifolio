@@ -4,14 +4,14 @@ import Header from "../components/header";
 import Home from "../components/home";
 import About from "../components/about";
 import Skills from "../components/skills";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import Projects from "../components/projects";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
-
   useEffect(() => {
     AOS.init();
-  }, [])
+  }, []);
 
   return (
     <>
@@ -19,6 +19,7 @@ const App = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
     </>
   );
 };
