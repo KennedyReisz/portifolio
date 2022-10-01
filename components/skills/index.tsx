@@ -32,13 +32,13 @@ const Skills = () => {
   return (
     <section className={styles.skills}>
       <div className={styles.skillsContent}>
-        <h2 data-aos="fade-up-right" data-aos-duration="1500">WHAT I DO</h2>
-        <h1 data-aos="fade-up-left" data-aos-duration="1500">SPECIALIZING IN</h1>
+        <h2 data-aos="fade-up-right" data-aos-duration="1000">WHAT I DO</h2>
+        <h1 data-aos="fade-up-left" data-aos-duration="1200">SPECIALIZING IN</h1>
 
         <div data-aos="flip-up" data-aos-duration="2000" className={styles.skillsArea}>
           <div className={styles.topArea}>
-            <Image data-aos="fade-right" data-aos-duration="3000" src={skill} alt="" />
-            <h3 data-aos="fade-left" data-aos-duration="3000">Web <br /> Developer</h3>
+            <Image data-aos="fade-right" data-aos-duration="2300" src={skill} alt="" />
+            <h3 data-aos="fade-left" data-aos-duration="2300">Web <br /> Developer</h3>
           </div>
           <div className={styles.downArea}>
             <div className={styles.technologies}>

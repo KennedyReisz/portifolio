@@ -29,7 +29,7 @@ const Home = () => {
         Full-Stack Developer<span>.</span>
       </p>
 
-      <div data-aos="zoom-in-up" data-aos-duration="3000" className={styles.socials}>
+      <div data-aos="zoom-in-up" data-aos-duration="1000" className={styles.socials}>
         <div onClick={handleGoToDiscord} className={styles.discord}>
           <Image src={discord} alt="" />
         </div>

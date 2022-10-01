@@ -10,7 +10,7 @@ const About = () => {
     <section className={styles.about}>
       <div data-aos="fade-up"
         data-aos-anchor-placement="center-bottom"
-        data-aos-duration="3000"
+        data-aos-duration="1500"
         className={styles.aboutContent}>
         <div className={styles.leftSide}>
           <div className={styles.aboutImage}>
@@ -18,18 +18,18 @@ const About = () => {
           </div>
         </div>
         <div className={styles.rightSide}>
-          <h2 data-aos="zoom-in-left" data-aos-duration="2000">ABOUT ME</h2>
-          <h1 data-aos="zoom-in-left" data-aos-duration="3000">
+          <h2 data-aos="zoom-in-left" data-aos-duration="1000">ABOUT ME</h2>
+          <h1 data-aos="zoom-in-left" data-aos-duration="1500">
             I<span>&apos;</span>m Kennedy
           </h1>
 
-          <p data-aos="zoom-in-left" data-aos-duration="3000">
+          <p data-aos="zoom-in-left" data-aos-duration="2000">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero
             pariatur consectetur veritatis nihil consequuntur optio quod in
             labore, et laboriosam accusamus? Doloribus sed illo debitis expedita
             delectus ex quae?
           </p>
-          <p data-aos="zoom-in-left" data-aos-duration="3000">
+          <p data-aos="zoom-in-left" data-aos-duration="2500">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius vero
             pariatur consectetur veritatis nihil consequuntur optio quod in
             labore, et laboriosam accusamus? Doloribus sed illo debitis expedita

@@ -6,7 +6,7 @@ import styles from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header data-aos="fade-down" data-aos-duration="3000" className={styles.headerContainer}>
+    <header data-aos="fade-down" data-aos-duration="1500" className={styles.headerContainer}>
       <h1 className={styles.headerTitle}>Kennedy</h1>
 
       <nav className={styles.navbar}>
