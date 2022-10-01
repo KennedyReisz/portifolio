@@ -27,7 +27,7 @@ const Home = () => {
         </div>
 
         <h1 className={styles.mainPhrase}>
-          I<span>&#180;</span>m Kennedy<span>!</span>
+          I<span>&apos;</span>m Kennedy<span>!</span>
         </h1>
         <p className={styles.subPhrase}>
           Full-Stack Developer<span>.</span>
