@@ -21,6 +21,7 @@ const Home = () => {
     <>
       <Header />
 
+      {/* Home */}
       <div className={styles.home}>
         <div className={styles.profile}>
           <Image height={290} width={240} src={profile} alt="" />
