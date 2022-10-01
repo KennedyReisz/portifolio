@@ -3,17 +3,17 @@
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .home .mainPhrase {
   font-size: 90px;
   font-weight: 900;
-  transition: all ease 1.3s;
+  transition: all ease 1s;
   text-shadow: 0 0 40px #00000050;
   margin-bottom: 20px;
   cursor: default;
+  color: #252525;
 }
 
 .home .mainPhrase>span {
@@ -21,7 +21,7 @@
 }
 
 .home .mainPhrase:hover {
-  letter-spacing: 15px;
+  letter-spacing: 10px;
 }
 
 .home .subPhrase {
@@ -29,8 +29,48 @@
   font-size: 32px;
   text-shadow: 0 0 20px #00000050;
   cursor: default;
+  color: #252525;
+  margin-bottom: 20px;
 }
 
 .home .subPhrase>span {
   color: #8c9983;
+}
+
+/* Socials */
+.home .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .socials .discord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #252525;
+  border-radius: 100%;
+  margin-right: 20px;
+  transition: all ease 1s;
+  cursor: pointer;
+}
+
+.home .socials .discord:hover {
+  background-color: #8c9983;
+}
+
+.home .socials .github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #252525;
+  border-radius: 100%;
+  transition: all ease 1s;
+  cursor: pointer;
+}
+
+.home .socials .github:hover {
+  background-color: #8c9983;
 }
